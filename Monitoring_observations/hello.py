@@ -10,6 +10,7 @@ def main():
     # Write the current date to date_keeper.txt
     with open("Monitoring_observations/date_keeper.txt", "a") as file:
         file.write(f"Date in Amsterdam: {current_date}\n")
+    print("Date Recorded!")
 
 if __name__ == "__main__":
     main()
